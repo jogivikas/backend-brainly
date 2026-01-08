@@ -10,7 +10,7 @@ pnpm-debug.log*
 # ================================
 # Environment variables (IMPORTANT)
 # ================================
-.env
+.env 
 .env.local
 .env.development
 .env.production
