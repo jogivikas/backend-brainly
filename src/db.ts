@@ -1,13 +1,6 @@
 import mongoose, { model, Schema } from "mongoose";
-import "dotenv/config";
 
-const mongoUrl = process.env.MONGO;
-console.log("MONGO_URL from env:", mongoUrl);
-if (!mongoUrl) {
-  console.error("MONGO environment variable is not defined");
-  process.exit(1);
-}
-mongoose.connect(mongoUrl);
+mongoose.connect("mongodb://localhost:27017/secondBrain");
 
 const UserSchema = new Schema({
   username: { type: String, unique: true },
