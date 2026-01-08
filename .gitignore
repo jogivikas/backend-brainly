@@ -1,0 +1,79 @@
+# ================================
+# Node modules & package managers
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ================================
+# Environment variables (IMPORTANT)
+# ================================
+.env
+.env.local
+.env.development
+.env.production
+
+# ================================
+# Build & cache
+# ================================
+dist/
+build/
+.cache/
+.tmp/
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+
+# ================================
+# Runtime data
+# ================================
+pids/
+*.pid
+*.seed
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDE / Editor settings
+# ================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ================================
+# Coverage & testing
+# ================================
+coverage/
+
+# ================================
+# Uploads (if using Multer / Cloudinary temp)
+# ================================
+uploads/
+
+# ================================
+# Database files (local)
+# ================================
+*.sqlite
+*.db
+
+# ================================
+# TypeScript
+# ================================
+*.tsbuildinfo
+
+# ================================
+# Docker (optional)
+# ================================
+docker-data/
